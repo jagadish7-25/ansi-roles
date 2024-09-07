@@ -1,0 +1,12 @@
+[mysql]
+mysql.chocojohns.online ansible_user=ec2-user ansible_password=DevOps321
+
+[backend]
+backend.chocojohns.online ansible_user=ec2-user ansible_password=DevOps321
+
+[frontend]
+frontend.chocojohns.online ansible_user=ec2-user ansible_password=DevOps321
+
+[all:vars]
+ansible_user=centos
+ansible_password=DevOps321
